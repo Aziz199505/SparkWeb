@@ -1,0 +1,645 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="Logo.css" rel="stylesheet" type="text/css" />
+<link href="nav.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css"> 
+<link rel="stylesheet prefetch" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link rel="stylesheet prefetch" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+
+<style type="text/css">
+</style>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<link href="HomeMain.css" rel="stylesheet" type="text/css" />
+<link href="parallaxImg.css" rel="stylesheet" type="text/css" />
+<link href="sticks.css" rel="stylesheet" type="text/css" />
+<link href="social.css" rel="stylesheet" type="text/css" />
+<!----Background Color Change ---->
+<script style="display: none;">var __links = document.querySelectorAll('a');function __linkClick(e) { parent.window.postMessage(this.href, '*');} ;for (var i = 0, l = __links.length; i < l; i++) {if ( __links[i].getAttribute('target') == '_blank' ) { __links[i].addEventListener('click', __linkClick, false);}}</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script>$(window).scroll(function(){
+  var y = $(window).scrollTop()
+  if (y <= 1200){
+    $('body').css('background-color','#fd3131');
+  } else if(y <= 2400){
+    $('body').css('background-color','#f19f00');
+	 } else if(y <= 3600){
+    $('body').css('background-color','#efe216');
+	 } else if(y <= 4800){
+    $('body').css('background-color','#38e211');
+	 } else if(y <= 6000){
+    $('body').css('background-color','#0f96e3');
+  } else {
+    $('body').css('background-color',' #b069ff');
+  }
+});
+//@ sourceURL=pen.js
+</script>
+<!----Background Color Change ---->
+
+
+<script type="text/javascript">
+
+
+<!----PageScroll---->
+$(function() {
+	
+	$("#HOME_NAV").on("click", function() {
+		
+		$("html body").animate({"scrollTop":$("#Home").offset().top}, 1000);
+		
+	return false;
+		
+	});
+	
+		$("#INFO_NAV").on("click", function() {
+		
+		$("html body").animate({"scrollTop":$("#Info").offset().top}, 1000);
+		
+	return false;
+		
+	});
+	
+	
+		$("#CONTACT_NAV").on("click", function() {
+		
+		$("html body").animate({"scrollTop":$("#Contact").offset().top}, 1000);
+		
+	return false;
+		
+	});
+	
+	$("#APPLY_NAV").on("click", function() {
+		
+		$("html body").animate({"scrollTop":$("#Apply").offset().top}, 1000);
+		
+	return false;
+		
+	});
+	
+	$("#REQUIRMENTS_NAV").on("click", function() {
+		
+		$("html body").animate({"scrollTop":$("#Req").offset().top}, 1000);
+		
+	return false;
+		
+	});
+	
+	
+	$("#ASK_NAV").on("click", function() {
+		
+		$("html body").animate({"scrollTop":$("#Ask").offset().top}, 1000);
+		
+	return false;
+		
+	});
+	
+});
+
+<!----PageScroll---->
+
+
+
+</script>
+
+
+<script>
+$(document).on('scroll', function(){
+        if ($('.nav')[0].offsetTop < $(document).scrollTop()){
+            $('.nav').css({position: "fixed", top:0});            
+        }
+        if ($(document).scrollTop() < $(".menu2")[0].offsetTop){
+            $('.nav').css({position: "static", top: 0});           
+        }            
+    });  
+
+
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div id="Container">
+
+
+
+
+<!----Logo---->
+<div class="trans">
+  <p class="word">
+    <span class="letter">S</span>
+    <span class="letter">P</span>
+    <span class="letter">A</span>
+    <span class="letter">R</span>
+    <span class="letter">K</span>
+     <span class="letter">!</span>
+
+ 
+  </p>
+  </p>
+</div>
+<!----Logo---->
+
+
+
+<!-----Nav---->
+<div class="menu2">
+<div class="nav">
+<ul id="menu">
+	<li>
+			<a href="#" id="HOME_NAV">
+				HOME
+			</a>
+			<span></span>
+		</li>
+		<li>
+			<a href="#" id="INFO_NAV">
+				INFO
+			</a>
+			<span></span>
+		</li>
+		<li>
+			<a href="#" id="REQUIRMENTS_NAV">
+				REQUIREMENTS
+			</a>
+			<span></span>
+		</li>
+		<li>
+			<a href="#" id="APPLY_NAV">
+				APPLY
+			</a>
+			<span></span>
+		</li>
+		<li>
+			<a href="#" id="CONTACT_NAV">
+				CONTACT
+			</a>
+			<span></span>
+		</li>
+		<li>
+			<a href="#" id="ASK_NAV">
+				ASK
+		  </a>
+			<span></span>
+		</li>
+	
+	</ul>
+
+</div>
+</div>
+<!-----Nav---->
+<div id="Home">
+  <div id="Home_Paper">
+  	 <header>
+   
+      <h1 class="pageTitle">Spark!</h1>
+    
+    <h2 class="pageSubTitle"> Where Curiosity & Creativity Ignite Solutions to Real-World Problems
+</h2>
+  </header>
+  
+ 
+<p>Do you want to <b><i>create things</i></b> that will change the world? Do you want to create change that will 
+
+impact the world? </p>
+
+ 
+
+<p>Channel your passion by teaming up with dynamic local entrepreneurs to become a change maker in 
+
+our community! Spark! is a place where you can develop an entrepreneurial mindset as you work to 
+
+generate creative solutions to real-world problems. </p>
+
+ 
+
+<p>At Spark!, you will learn the skillsets necessary to move an idea from light bulb to launch. Live and 
+
+learn stages of ideation, business development, perfected pitch proposals and business 
+
+implementation. Be a part of a valuable team and use your critical thinking skills to grow your 
+
+ideas to the next level. Spark! will be an engaging, off-site, creative space where you will have 
+
+access to business mentors and other community resources to help support you in your development 
+
+of a start-up company, social enterprise or nonprofit organization. </p>
+
+ 
+
+<h5 class="pageSubTitle">
+The Spark! Design Team 
+
+</h5>
+
+<p>We are certainly seeking to create a program that will have a profound impact on the St. Louis 
+
+entrepreneurial ecosystem. This can only be done with the help and input of those who engage in 
+
+this work on a daily basis. The program has been designed by the following external business 
+
+experts: </p>
+
+ 
+
+<p>George Brill, CEO, Talisen Technologies 
+
+Sylvester Chisom, Youth Entrepreneurship Expert, Author, Entrepreneur 
+
+Greg Davenport, Youth Coordinator, Center for Entrepreneurship, St. Louis University 
+
+Tanya Hamilton, Founder/Executive Director, Independent Youth 
+
+Ken Harrington, Managing Director, Skandalaris Center for Entrepreneurial Studies 
+
+Jan Misuraca, Executive Director, Parkway Alumni Association 
+
+Trent Phelps, Entrepreneur 
+
+Mike Philip, CEO, Rovertown 
+
+Mark Sanders, Director of Business Development, Lockerdome 
+
+Travis Sheridan, Assistant Vice President Innovation & Entrepreneurship, St. Louis Economic 
+
+Development Partnership 
+
+Jake Simon, Founder, Project:IDWIL </p>
+    
+
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="Info">
+
+
+  <div id="Home_Paper">
+  
+  	<ul><h5 class="pageSubTitle">
+Unique Learning Experiences </h5>
+
+<li> Inspiring activities to discover and identify opportunities in the marketplace </li>
+
+<li>Iterative feedback from mentors and other community resources to assess viability of 
+
+problems, solutions and prototypes </li> 
+
+<li>Pitch preparation for multiple audiences </li>
+
+<li> Community connections to entrepreneurs, start-up businesses and non-profit organizations </li>
+
+<li>Recruitment and identification of a team </li>
+ </ul>
+ 
+
+
+  	<ul><h5 class="pageSubTitle">Unique Learning Environment </h5>
+
+<li>Engaging, innovative environment that stimulates creativity, curiosity and collaboration </li> 
+
+<li>Access to technology tools and resources </li>
+
+<li>Mentorship and professional services provided by entrepreneurs and business service 
+
+providers </li>
+
+<li> Off-site location (TBD) </li>
+
+ 
+ </ul>
+
+<h5 class="pageSubTitle">Who You Will Work With </h5>
+
+<p>One of the most exciting components of this course is the opportunity to work with some of the 
+
+most creative companies and universities around. The St. Louis entrepreneurial ecosystem is 
+
+energetic, creative and growing. It consists of high-energy startup companies, social enterprises 
+
+and corporate intrapreneurs. Both small and large companies will be providing mentors that can 
+
+offer rich professional development for you as an aspiring entrepreneur! </p>
+
+ 
+
+<h5 class="pageSubTitle">Where You Will Go</h5>
+
+<p>As a student in the Spark! program, you will have the opportunity to attend several high-leverage, 
+
+entrepreneurial events in the St. Louis area. Opportunities such as One Million Cups, St. Louis 
+
+Start-Up weekend and other opportunities will be made available to all young innovators involved in 
+
+this program. Students will also have the opportunity to visit other local incubators and 
+
+collaborative workspaces in the St. Louis area. </p>
+
+ 
+
+<h5 class="pageSubTitle">Who Will Serve as the Program Director for Spark!? </h5>
+
+<p>Mrs. Xanthe Meyer has been selected as the Program Manager for Spark!. Mrs. Meyer has a 
+
+background in Marketing Education and has served as a DECA advisor for the past 18 years. She has 
+
+a B.S. in Marketing Education from University of Missouri-Columbia and an MBA from Lindenwood 
+
+University. She was named 2013 Missouri Marketing and Cooperative Education Teacher of the Year 
+
+and was nominated for the Missouri ACTE Teacher of the Year in 2014. She is passionate and 
+
+excited to be a part of the Spark! program. Her innovative vision will ensure success of the 
+
+students involved in Spark!.</p> 
+
+ 
+
+<h5 class="pageSubTitle">How many students will be accepted into Spark!? </h5>
+
+<p>Approximately 15 students will be selected for participation in Spark! during the 2014-2015 school 
+
+year. </p>
+  
+  
+  
+    
+
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div id="Req">
+
+	<div id="Home_Paper">
+  	
+   
+      <h1 class="pageTitle"> I’m Interested in Spark!</h1>
+
+ 
+
+<ul><h5 class="pageSubTitle">What are the requirements for acceptance into Spark!</h5> 
+
+<li>Attain junior or senior status </li>
+
+<li>Have a desire to work in a project and problem-based real world environment with other 
+
+Parkway high school students </li>
+
+<li>Be willing to comply with business ethics and dress codes as determined the Spark! Program 
+
+Director </li>
+
+<li>Be willing to spend 5-7 hours per week away from home high school </li>
+
+<li>Be able to provide own transportation </li>
+
+</ul>
+
+	<div  class="stacks">
+    	
+          <ul class="stacks" style="list-style:none";>
+    <li>
+      <a>
+        <h2>Course Name</h2>
+        <p>Spark!</p>
+      </a>
+    </li>
+    <li>
+      <a>
+        <h2>Prerequisite</h2>
+        <p>Must be a passionate, curious and
+
+creative learner who has Spark! 
+
+and seeks to be a part of the St. 
+
+Louis Entrepreneurial Community</p>
+      </a>
+    </li>
+    <li>
+      <a>
+        <h2>Credits</h2>
+        <p>2 CTE Credits</p>
+      </a>
+    </li>
+  
+  
+  
+ 
+ 
+   
+  </ul>
+
+    
+    </div>
+
+    
+    </div>
+
+
+</div>
+
+
+
+<div id="Apply">
+
+ <div id="Home_Paper">
+  
+  	
+   <ol> <h5 class="pageSubTitle">How do I apply? </h5>
+
+ 
+
+<li>Applicants must complete the online application form located at: 
+
+<a href="http://tinyurl.com/parkwayspark">https://tinyurl.com/parkwayspark </a> </li>
+
+<li> Applicants will submit a 60 second video pitch. Students have three options for their pitch: </li>
+	<ol style=" list-style-type:lower-alpha;">
+<li> I am pitching an innovative product idea </li> 
+
+<li > I am pitching an innovative service idea  </li>
+
+<li> I don’t have a specific idea, but I want to pitch myself and how I could support the launch of a new product or service idea!</li>
+</ol>
+
+
+<li> Videos will be evaluated based on the following criteria: </li>
+ <ol style=" list-style-type:lower-alpha;">
+
+<li> Innovation - Pitch identifies a compelling need and clear, original solution. </li>
+
+<li> Feasibility - There is potential for this product or service in the market or a potential 
+
+need for your knowledge and skills in launching a product or service. </li>
+
+<li> Impact/Need - There is potential for the proposed concept or a need for this person 
+
+to be involved in Spark!. </li>
+
+<li> Quality of Presentation - Style, Poise, Skill, Clarity, Creativity, Personality, 
+
+Confidence. </li>
+</ol>
+
+
+
+
+
+
+<li> Based on the strength of the video pitches, applicants may be interviewed by local 
+
+entrepreneurs to determine who will be a part of this exciting program. </li>
+
+<li> Acceptance letters will be mailed May 16, 2014.  </li>
+
+ </ol>
+
+ <ol> <h5 class="pageSubTitle">How to submit your video:</h5> 
+
+ 
+
+<li> Record a video of your 60-second pitch. </li>
+
+<li> Upload the video to a video hosting site (e.g., YouTube, Vimeo, Flickr, etc.) </li>
+
+<li> Send your video link to <a href="jstanfill@parkwayschools.net">jstanfill@parkwayschools.net</a> no later than May 1, 2014. </li>
+
+<li> You will receive a confirmation email upon receipt of your submission.</li>
+    
+    </ol>
+
+    
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div id="Contact">
+
+
+
+	<div id="Home_Paper">
+  	
+   	<div id="slide2" class="slide">
+  <div class="title">
+   <h1 class="pageTitle">Contact</h1>
+   <p>Contact Jennifer Stanfill, Coordinator of Career & Technical Education and Partnerships for the 
+
+Parkway School District at (314) 415-7048 or <a href="jstanfill@parkwayschools.net">jstanfill@parkwayschools.net</a>. </p>
+  </div>
+</div>
+ 
+    
+    </div>
+
+
+
+
+	
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div id="Ask">
+
+
+<div id="Home_Paper" style="text-align:center;">
+  	<div style="margin-right:auto;margin:auto;">
+  	<!-- Do not change the code! -->
+<a id="foxyform_embed_link_549395" href="http://www.foxyform.com/">foxyform</a>
+<script type="text/javascript">
+(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://www.foxyform.com/js.php?id=549395&sec_hash=f8fb7a47767&width=350px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script>
+<!-- Do not change the code! -->
+ </div>
+    
+    </div>
+
+	
+
+</div>
+
+
+	
+  <div class="Social" style="text-align:center;">
+    	
+     <a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+<a href="#" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+<a href="#" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+<a href="#" class="icon-button youtube"><i class="fa fa-youtube"></i><span></span></a>
+<a href="#" class="icon-button pinterest"><i class="fa fa-pinterest"></i><span></span></a>   
+    
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

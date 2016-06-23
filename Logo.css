@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.trans {
+  padding: 20px;
+  background: #111;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  -webkit-perspective: 500px;
+  -ms-perspective: 500px;
+  perspective: 500px;
+  font-family: 'Open Sans','sans-serif';
+}
+.trans:hover span {
+  -webkit-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+p.word {
+  width: 511px;
+  overflow: hidden;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+span.letter {
+  -webkit-transition: all 500ms cubic-bezier(0, 0.05, 0.03, 0.84);
+  transition: all 500ms cubic-bezier(0, 0.05, 0.03, 0.84);
+  padding: 20px;
+  float: left;
+  display: block;
+  background: #ff3333;
+  font-size: 2em;
+  font-weight: 900;
+}
+span.letter:nth-child(1) {
+  background: #fd3131;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+span.letter:nth-child(2) {
+  background: #f19f00;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+span.letter:nth-child(3) {
+  background: #efe216;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+span.letter:nth-child(4) {
+  background: #38e211;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+span.letter:nth-child(5) {
+  background: #0f96e3;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+span.letter:nth-child(6) {
+  background: #b069ff;
+  -webkit-transition-delay: .5s;
+  transition-delay: .5s;
+}
+span.letter:nth-child(7) {
+  background: #b10dc9;
+  -webkit-transition-delay: .6s;
+  transition-delay: .6s;
+}
+span.letter:nth-child(8) {
+  background: #85144B;
+  -webkit-transition-delay: .7s;
+  transition-delay: .7s;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+</style>

@@ -1,0 +1,109 @@
+<style type='text/css'>
+	body {
+		padding: 0;
+		margin: 0;
+	}
+	#menu, #menu ul {
+	/* Remove bullet points and add fonts */
+	list-style: none;
+	width: 970px;
+	top: 50px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	z-index: 10;
+	float: left;
+	margin-left: -30px;
+	}
+	
+	#menu li {
+	/* Horizontal menu, not vertical. Then just a little extra positioning */
+	float: left;
+	position: relative;
+	overflow: hidden;
+	height: 40px;
+	z-index: 10;
+		
+	}
+	
+	#menu li a {
+		/* Clear up the links and position them correctly */
+		color: #000;
+		padding: 0 15px;
+		text-decoration: none;
+		display: block;
+		position: relative;
+		height: 40px;
+		padding: 10px 15px;
+		font-weight: bold;
+		/* Quick animations to animate the anchor */
+		-webkit-transition: all 0.2s ease-in;
+		-moz-transition: all 0.2s ease-in;
+		-ms-transition: all 0.2s ease-in;
+	}
+	
+	#menu li span {
+		/* Default width of the span (acts as border). Z-index so it appears behind the words. */
+		width: 6px;
+		z-index: -1;
+		/* Position it absolutely so it goes where we want it to go */
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		/* Animation again, because both the span and the anchor will be animated */
+		-webkit-transition: all 0.4s ease-in;
+		-moz-transition: all 0.4s ease-in;
+		-ms-transition: all 0.4s ease-in;
+	}
+	
+	#menu li:nth-of-type(1) span { background: #fd3131; }
+	#menu li:nth-of-type(2) span { background: #f19f00; }
+	#menu li:nth-of-type(3) span { background: #efe216; }
+	#menu li:nth-of-type(4) span { background: #38e211; }
+	#menu li:nth-of-type(5) span { background:#0f96e3; }
+	#menu li:nth-of-type(6) span { background: #b069ff; }
+	#menu li:nth-of-type(7) span { background: #b069ff; }
+	
+	#menu li:hover > span {
+		min-width: 100%;
+	}
+
+	#menu li a:hover {
+		color: #fff;
+	}
+	
+	#menu .sub-menu li {
+		padding: 10px;
+		float: left;
+	}
+	
+	#menu li:hover {
+		box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	}
+
+
+	#header {
+		background: #000;
+		padding: 20px;
+		color: #fff;
+	}
+	
+	#header a {
+		opacity: 1 !important;
+		color: #fff;
+		font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+	#header img {
+		width: 150px;
+		height: 33px;
+		float: none;
+	}
+	
+	
+	
+</style>

@@ -1,0 +1,44 @@
+@charset "utf-8";
+body {
+	  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  overflow-x:hidden;
+  background-color:#fd3131;
+	
+}
+
+#Container {
+	height: 7200px;
+	width: 100%;
+	left: 507px;
+	top: 153px;
+}
+#Home {
+	height: 1080px;
+	width: 100%;
+}
+
+#Info {
+	height: 1200px;
+	width: 100%;
+}
+
+#Contact {
+	height: 1200px;
+	width: 100%;
+}
+
+#Apply {
+	height: 1200px;
+	width: 100%;
+}
+
+#Req {
+	height: 1200px;
+	width: 100%;
+}
+
+#Ask {
+	height: 700px;
+	width: 100%;
+}

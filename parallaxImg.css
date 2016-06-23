@@ -1,0 +1,60 @@
+@charset "utf-8";
+#Container #Contact {
+}
+
+@charset "utf-8";
+#About style {
+}
+
+
+.slide {
+	min-height: 100vh;
+	width: 100vw;
+	box-sizing: border-box;
+	height: 300px;
+	padding-top: 25;
+	padding-right: vh;
+	padding-bottom: 10%;
+	padding-left: vh;
+	z-index: 2;
+}
+
+img:last-of-type {
+	left: 34%;
+	transform: translateZ(.9px) scale(.1);
+	z-index: 2;
+}
+
+
+
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+	background: 50% 50% / cover;
+	z-index: 2;
+}
+
+#slide2 {
+	background-image: url("http://www.daceylawllc.com/images/stl.jpg");
+	background-attachment: fixed;
+	width: 100%;
+	z-index: 0;
+	
+
+}
+
+.title {
+  width: 50%;
+  padding: 5%;
+  background: rgba(240,230,220, .7);
+  transform: translateZ(.2px) scale(.8);
+}
